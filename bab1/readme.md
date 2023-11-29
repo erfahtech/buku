@@ -9,4 +9,5 @@ Dalam IoT terdapat beberapa level layer mulai dari hardware sampai dengan end-us
 -	Sistem, meliputi backend, IoT platform sampai visualisasi.
 -	User, dibagi menjadi 2 kategori yaitu konsumen dan bisnis, bagi user konsumen IoT digunakan sebagai sarana penunjang hidup sampai dengan penunjang kehidupan dan bisnis sebagai infrastruktur public sampai pelayanan Masyarakat.
 ## Sejarah Internet of Things
-Internet of Things merupakan pengembangan ilmu pengoptimalan kehidupan dengan sensor dan perangkat pintar yang diperantarai oleh internet. Sejak dikenalnya internet pada tahun 1989 mulai banyak hal dilakukan melalui internet.
+Internet of Things merupakan pengembangan ilmu pengoptimalan kehidupan dengan sensor dan perangkat pintar yang diperantarai oleh internet. Sejak dikenalnya internet pada tahun 1989 mulai banyak hal dilakukan melalui internet. John Romkey pada tahun 1990 menciptakan alat pemanggang roti yang dapat dinyala dan matikan melalui internet.
+Pada tahun 1994 WearCam diciptakan oleh Steve Mann.
