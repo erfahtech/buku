@@ -8,3 +8,5 @@ Dalam IoT terdapat beberapa level layer mulai dari hardware sampai dengan end-us
 -	Komunikasi, pada level ini mencakup link protocol (range dan bandwidth), network/transport protocol (IPv4 dan IPv6), dan session protocol (MQTT, FTP, SSH).
 -	Sistem, meliputi backend, IoT platform sampai visualisasi.
 -	User, dibagi menjadi 2 kategori yaitu konsumen dan bisnis, bagi user konsumen IoT digunakan sebagai sarana penunjang hidup sampai dengan penunjang kehidupan dan bisnis sebagai infrastruktur public sampai pelayanan Masyarakat.
+## Sejarah Internet of Things
+Internet of Things merupakan pengembangan ilmu pengoptimalan kehidupan dengan sensor dan perangkat pintar yang diperantarai oleh internet. Sejak dikenalnya internet pada tahun 1989 mulai banyak hal dilakukan melalui internet.
