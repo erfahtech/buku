@@ -5,3 +5,5 @@
 ### Perancangan Backend
 
 ### Perancangan API dengan GCF
+
+### Perancangan Frontend aplikasi
