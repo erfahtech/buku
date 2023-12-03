@@ -3,3 +3,5 @@
 ## PERANCANGAN
 
 ### Perancangan Backend
+
+### Perancangan API dengan GCF
