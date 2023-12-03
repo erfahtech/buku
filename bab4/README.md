@@ -1,8 +1,14 @@
-# BAB 3
+# BAB 4
 
 ## PERANCANGAN
 
-### Perancangan Backend
+### Perancangan Backend Aplikasi
+
+#### Pendahuluan
+
+#### Kerangka proyek
+
+#### Login dan Autorisasi
 
 ### Perancangan API dengan GCF
 
