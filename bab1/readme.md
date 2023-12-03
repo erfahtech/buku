@@ -30,3 +30,23 @@ IoT memungkinkan kita untuk mengendalikan dan memantau peralatan di kehidupan se
 Arsitektur sistem IoT bervariasi tergantung pada konteks penerapannya. Misalnya, dalam otomasi rumah, setiap kotak saklar listrik hanya membutuhkan sensor untuk menangkap sinyal dan prosesnya (kebanyakan beralih ON/OFF). Namun, dalam skenario real-time yang lebih kompleks, mungkin diperlukan prosesor dan perangkat penyimpanan di setiap perangkat IoT.
 
 Secara umum, perkembangan IoT telah mengubah cara kita berinteraksi dengan teknologi. IoT memiliki potensi untuk mengubah berbagai bidang kehidupan, termasuk industri, kesehatan, dan transportasi.
+
+##	Website
+
+Website atau disebut juga web, site, situs web. Merupakan Kumpulan halaman web yang saling berhubungan serta dapat diakses dari mana saja selama terkoneksi dengan internet. Website terdiri dari Kumpulan komponen seperti teks, gambar, suara, yang berisi informasi.
+
+Website terdiri dari dua komponen utama yaitu client-side dan server-side. Client-site website merupakan bagian situs web yang ditampilkan kepada user melalui browser. Bagian ini terdiri dari HTML, CSS, dan JavaScript untuk mendesain dan menampilkan halaman web. Sedangkan server-side website adalah bagian yang tidak terlihat oleh user, server-side berisikan file dan data yang proses oleh server web. Bagian server-side ini terdiri dari Bahasa pemrograman seperti Golang, PHP, dan python.
+
+##	MQTT
+
+MQTT (Message Queuing Telemetry Transport) merupakan protokol pesan yang dirancang untuk komunikasi mesin ke mesin. Protokol MQTT berjalan diatas stack TCP/IP, dan digunakan untuk mengirimkan data serta mengkomunikasikan data IoT dengan efisien. MQTT juga memfasilitasi pengiriman pesan antara Perangkat IoT dengan cloud serta sebaliknya.
+
+System kerja MQTT menerapkan Publish dan Subscribe data. pada penggunaannya perangkat IoT akan terhubung dengan sebuah Broker dan memiliki Topic tertentu. Broker pada MQTT memiliki kegunaan untuk menangani data publish dan subscribe dari berbagai perangkat, atau dapat diumpamakan sebagai server yang memiliki Alamat Ip khusus.
+
+Publish adalah cara perangkat mengirimkan datanya ke subscriber. Publisher biasanya berupa perangkat yang terhubung ke sensor tertentu. Subscribe adalah cara perangkap menerima berbagai jenis data dari publisher. Subscriber dapat menjadi aplikasi pemantau sensor dan lainnya. Subscriber akan meminta data dari penerbit. Topik seperti mengelompokan data ke dalam kategori tertentu. Topik wajib ada didalam system kerja protokol MQTT, setiap transaksi yang terjadi antara publisher dengan subscriber memerlukan topik tertentu. 
+
+Protokol MQTT sudah menjadi standar untuk mengirimkan data IoT. Ada beberapa manfaat yang diberikan oleh protokol MQTT seperti:
+-	Ringan dan efisien, Implementasi MQTT pada perangkat IoT membutuhkan sumber daya minimal, dapat digunakan pada mikrokontroler kecil, dengan pesan kontrol minimal dua bita data dan header pesan yang kecil untuk optimalisasi bandwidth jaringan.
+-	Dapat diskalakan, MQTT membutuhkan sedikit kode dan daya, serta memiliki fitur bawaan untuk mendukung komunikasi dengan sejumlah besar perangkat IoT. Ini memungkinkan implementasi yang efisien untuk terhubung dengan jutaan perangkat.
+-	Dapat diandalkan, MQTT mendukung perangkat IoT yang terhubung melalui jaringan seluler yang tidak dapat diandalkan, mengurangi waktu koneksi ulang, dan mendukung tiga tingkat kualitas layanan: paling banyak sekali (0), setidaknya sekali (1), dan tepat sekali (2).
+-	Aman, MQTT menyederhanakan enkripsi pesan dan autentikasi perangkat serta pengguna dengan dukungan protokol modern seperti OAuth, TLS1.3, dan sertifikat pelanggan.
